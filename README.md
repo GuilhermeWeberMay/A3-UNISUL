@@ -3,7 +3,7 @@ Repositório feito para a A3 da matéria de algoritmos e lógica
 
 # Integrantes
 - Antonio da Rocha Izoldi
-- barbara Zumblick Aguiar
+- Barbara Zumblick Aguiar
 - Enzo Batista Porto
 - Guilherme Weber May
-- 
+- Lucas Ramos Gonçalves
