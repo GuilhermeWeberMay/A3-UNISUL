@@ -9,8 +9,7 @@ public class Main {
         int opcao;
 
         // Menu inicial
-        System.out.println("XYZ COMERCIO DE PRODUTOS LTDA.");
-        System.out.println("SISTEMA DE CONTAS A PAGAR\n");
+        printCabecalho();
         System.out.println("MENU PRINCIPAL\n");
         System.out.println("1 - CADASTRO DE CONTAS");
         System.out.println("2 - BAIXA DE CONTAS");
@@ -20,9 +19,8 @@ public class Main {
         opcao = sc.nextInt();
 
         if (opcao == 1) {
-            System.out.println("XYZ COMERCIO DE PRODUTOS LTDA.");
-            System.out.println("SISTEMA DE CONTAS A PAGAR");
-            System.out.println("\nCADASTRO DE CONTAS");
+            printCabecalho();
+            System.out.println("CADASTRO DE CONTAS\n");
             System.out.println("1 - INCLUSÃO");
             System.out.println("2 - ALTERAÇÃO");
             System.out.println("3 - CONSULTAR");
@@ -30,5 +28,10 @@ public class Main {
             System.out.println("0 - RETORNAR");
             System.out.print("OPÇÃO : ");
         }
+    }
+
+    static void printCabecalho(){
+        System.out.println("\nXYZ COMERCIO DE PRODUTOS LTDA.");
+        System.out.println("SISTEMA DE CONTAS A PAGAR\n");
     }
 }
