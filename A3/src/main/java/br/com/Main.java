@@ -7,6 +7,8 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         // Declaração de variaveis
         int opcao;
+
+        // Menu inicial
         System.out.println("XYZ COMERCIO DE PRODUTOS LTDA.");
         System.out.println("SISTEMA DE CONTAS A PAGAR\n");
         System.out.println("MENU PRINCIPAL\n");
@@ -17,5 +19,16 @@ public class Main {
         System.out.print("OPÇÃO : ");
         opcao = sc.nextInt();
 
+        if (opcao == 1) {
+            System.out.println("XYZ COMERCIO DE PRODUTOS LTDA.");
+            System.out.println("SISTEMA DE CONTAS A PAGAR");
+            System.out.println("\nCADASTRO DE CONTAS");
+            System.out.println("1 - INCLUSÃO");
+            System.out.println("2 - ALTERAÇÃO");
+            System.out.println("3 - CONSULTAR");
+            System.out.println("4 - EXCLUSÃO");
+            System.out.println("0 - RETORNAR");
+            System.out.print("OPÇÃO : ");
+        }
     }
 }
