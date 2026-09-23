@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // Declaração de variaveis
-        int opcao;
+        int opcao, opcao2;
 
         // Menu inicial
         printCabecalho();
@@ -27,6 +27,17 @@ public class Main {
             System.out.println("4 - EXCLUSÃO");
             System.out.println("0 - RETORNAR");
             System.out.print("OPÇÃO : ");
+            opcao2 = sc.nextInt();
+            if (opcao2 == 1) {
+                printCabecalho();
+                System.out.println("INCLUSÃO DE CONTA\n");
+                System.out.println("DOCUMENTO    : ");
+                System.out.println("DESCRIÇÃO    : ");
+                System.out.println("BENEFICIÁRIO : ");
+                System.out.println("VALOR        : ");
+                System.out.println("VENCIMENTO   : ");
+
+            }
         }
     }
 
